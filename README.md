@@ -31,6 +31,13 @@ $ cd tiempodev
 ```
 
 
+Install the dependencies using composer: 
+
+
+```console
+$ composer install
+```
+
 When you have the code ready on your local, just copy .env.example to a new .env file: 
 
 ```console
@@ -59,5 +66,19 @@ $ php artisan serve
 ```
 
 The page will ask you for registration. You may create a user using the "Register" option of the page. Then you may login using the user information you entered in the previous step.
+
+#VueJS
+
+First step is to install all dependencies using npm. 
+
+```console
+$ npm install
+```
+
+For runing vuejs project in development enviroment the command must be the next one: 
+
+```console
+$ npm run watch
+```
 
 ENJOY!
