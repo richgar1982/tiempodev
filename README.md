@@ -59,6 +59,20 @@ Finally, run the migration files to create database structure:
 $ php artisan migrate
 ```
 
+Also we need to create new keys for application and JWT plugin: 
+
+```console
+$ php artisan key:generate
+$ php artisan jwt:secret
+```
+
+It will generate two keys in the .env file like this: 
+
+```
+APP_KEY=base64:YuhNVRdnq5uCUFUIO0wjAPz/RX0xbQ7HhvIvtnKHyU4=
+JWT_SECRET=BHlyb2aGhEInsDDKHmqlu6jD6Nmbdks9DbLdE62Dxpry28zPNJQfkPYcd42g839c
+```
+
 If everything goes fine, you may use the serve option to serve the content to the browser
 
 ```console
